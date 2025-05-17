@@ -14,26 +14,9 @@ especially useful if you have ADHD or hate reading...
 
 **I'm assuming you use arch or an arch-based, but the steps would be extremely similar regardless.**
 
-1. Install the necessary base software and tools by running:
-   `sudo pacman -S sway wofi waybar nemo nautilus kitty dconf`. in your terminal.
-2. Install `eww` with `yay` from the AUR by running `yay eww`. eww is only necessary if you want widgets, can skip otherwise.
-3. Move all the folders in the `config` directory of this repo to your user `.config` directory (`~/.config`), make sure to back-up
-   old config files if you have any.
-4. Reboot and start sway by running `sway` in the terminal, or refresh your current sway instance. If you have an nvidia gpu, you'll need to run `sway --unsupported-gpu`. If you want
-   a login manager, I recommend using `ly`, other login-managers tend to not work well with sway.
-5. Configure important sway variables, in this case your `Monitors` and the `Wallpaper`, please edit the `config` file
-   in `.config/sway/config` with your text editor of choice to set it up, I've commented the config file well and so it
-   should be easy to know how you can setup your monitors and set the wallpaper.
-6. Install the Maple Mono font by copying the font files to your system `/usr/share/fonts` directory, then update the font cache by running `fc-cache -f -v` in the terminal.
-7. Configure the GTK theme by copying the `diinki-retro-dark` folder located in the `gtk_theme` directory of this repo, to your `~/.themes` (`username/.themes`) directory.
-   Then, set the active GTK theme by running the dconf-editor gui application and then setting the Gnome GTK theme string value to `diinki-retro-dark`.
-8. Configure the GTK icon theme by copying the linked theme files to your system `/usr/share/icons` directory, then set the `icon-theme` string to `FairyWren_Dark` (or any other theme that you may desire.)
-
-And that's it, you've now installed this rice from scratch
-
 1. `Installation`
    - Run `sudo pacman -S sway wofi waybar nemo nautilus kitty dconf` in your terminal.
-   - Run `yay eww` in your terminal (if you also want widgets) (you may need to install yay).
+   - Run `yay eww` in your terminal (if you also want widgets) (you may need to install yay) (note that you _might_ also need to change the monitor setup for eww, if it doesn't work immediately for you).
    - Install the Maple Mono font, as this font is used a lot in this Linux rice. Move the font-file to `/usr/share/fonts`, then run `fc-cache -f -v` to update all font
    - Run `git clone https://github.com/diinki/diinki-retrofuture` to clone this repo
 2. `Config Setup`
@@ -63,6 +46,7 @@ The most important default key-binds are:
 - `mod` + `[any number, 1-9]` = switch focus to the workspace equivalent to the number.
 - `mod` + `Shift` + ` [any number, 1-9]` = move the focused window to the workspace equivalent to the number.
 - `mod` + `Shift` + ` Space` = toggle floating mode for the focused window.
+- `mod` + `Shift` + ` C` = restart eww and all other things such as waybar and eww.
 - `mod` + ` Q` = Exit/Kill the focused window.
 - `mod` + `F` = toggle full-screen mode for the focused window.
 - `mod` + `Right Mouse Button` = re-size a window
@@ -99,7 +83,7 @@ that are made to look good with this rice.
 
 Design system descriptions can be found in the `design_system` directory of this repository.
 
-#### 🎨 Color Palette
+### 🎨 Color Palette
 
 The main color palette used widely for this rice in both the GTK themes and other components are:
 
@@ -122,7 +106,7 @@ The main color palette used widely for this rice in both the GTK themes and othe
 - Cyan: `#92fcfa`
 - Magenta: `#fc92fc`
 
-#### 🌆 Wallpapers:
+### 🌆 Wallpapers:
 
 Wallpapers for this rice can be found in the `wallpapers` directory of this repo.
 

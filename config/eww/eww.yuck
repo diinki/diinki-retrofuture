@@ -1,0 +1,118 @@
+(include "eww_widgets.yuck")
+
+
+
+(defwindow yearbox
+  :monitor '["<primary>", 0]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "50"
+    :y "50"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (yearbox)
+)
+
+(defwindow yearbox_monitor2
+  :monitor '[1]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "50"
+    :y "50"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (yearbox)
+)
+
+(defwindow monthbox
+  :monitor '["<primary>", 0]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "170"
+    :y "50"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (monthbox)
+)
+(defwindow monthbox_monitor2
+  :monitor '[1]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "170"
+    :y "50"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (monthbox)
+)
+
+(defwindow daybox
+  :monitor '["<primary>", 0]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "290"
+    :y "50"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (daybox)
+)
+(defwindow daybox_monitor2
+  :monitor '[]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "290"
+    :y "50"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (daybox)
+)
+
+(defwindow userinfo
+  :monitor '["<primary>", 0]'
+  :stacking "bg"
+  :namespace "eww"
+  :focusable true
+  :geometry (geometry
+    :x "50"
+    :y "170"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (userinfobox)
+)
+
+(defwindow powermenu
+  :monitor '["<primary>", 0]'
+  :stacking "fg"
+  :namespace "eww"
+  :focusable false
+  :geometry (geometry
+    :x "50"
+    :y "170"
+    :width "100"
+    :height "100"
+    :anchor "bottom right")
+  (powermenu)
+)
+
+
+
+
+
