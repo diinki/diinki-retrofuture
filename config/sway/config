@@ -53,7 +53,10 @@ set $up k
 set $right l
 set $term kitty
 set $application_launcher pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun
-set $file_explorer nemo
+
+# --- THE FILE EXPLORER! I recommend either nautilus or nemo, personally I think nautilus fits nicely,
+# --- although make sure to install and use my GTK theme, guide on that is in the github README.
+set $file_explorer GTK_THEME=diinki-retro-dark nautilus
 # =================================================================
 
 
