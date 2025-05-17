@@ -3,21 +3,7 @@
 
 
 (defwindow yearbox
-  :monitor '["<primary>", 0]'
-  :stacking "bg"
-  :namespace "eww"
-  :focusable false
-  :geometry (geometry
-    :x "50"
-    :y "50"
-    :width "100"
-    :height "100"
-    :anchor "bottom right")
-  (yearbox)
-)
-
-(defwindow yearbox_monitor2
-  :monitor '[1]'
+  :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
   :focusable false
@@ -31,20 +17,7 @@
 )
 
 (defwindow monthbox
-  :monitor '["<primary>", 0]'
-  :stacking "bg"
-  :namespace "eww"
-  :focusable false
-  :geometry (geometry
-    :x "170"
-    :y "50"
-    :width "100"
-    :height "100"
-    :anchor "bottom right")
-  (monthbox)
-)
-(defwindow monthbox_monitor2
-  :monitor '[1]'
+  :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
   :focusable false
@@ -58,20 +31,7 @@
 )
 
 (defwindow daybox
-  :monitor '["<primary>", 0]'
-  :stacking "bg"
-  :namespace "eww"
-  :focusable false
-  :geometry (geometry
-    :x "290"
-    :y "50"
-    :width "100"
-    :height "100"
-    :anchor "bottom right")
-  (daybox)
-)
-(defwindow daybox_monitor2
-  :monitor '[]'
+  :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
   :focusable false
@@ -85,7 +45,7 @@
 )
 
 (defwindow userinfo
-  :monitor '["<primary>", 0]'
+  :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
   :focusable true
@@ -99,7 +59,7 @@
 )
 
 (defwindow powermenu
-  :monitor '["<primary>", 0]'
+  :monitor '["<primary>", 0, 1, 2]'
   :stacking "fg"
   :namespace "eww"
   :focusable false
