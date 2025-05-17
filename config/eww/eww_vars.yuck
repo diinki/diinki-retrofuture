@@ -3,14 +3,3 @@
 (defpoll DAY :interval "1s" '~/.config/eww/scripts/day_format.sh')
 (defpoll MONTH :interval "1s" '~/.config/eww/scripts/month_format.sh')
 (defpoll YEAR :interval "1s" '~/.config/eww/scripts/year_format.sh')
-
-
-(defpoll uptime :interval "25s" "uptime -p | sed -e 's/up //;s/ hours,/h/;s/ minutes/m/'")
-
-; poll weather data, gets sent to ~/.cache/eww/weather 
-; (defpoll getweather :interval "1800s" '~/.config/eww/scripts/weather.sh --getdata')
-
-(defpoll TEMP :interval "30s" '~/.config/eww/scripts/weather.sh --temp')
-(defpoll WEATHER :interval "30s" '~/.config/eww/scripts/weather.sh --stat')
-(defpoll WEATHERICON :interval "30s" '~/.config/eww/scripts/weather.sh --icon')
-
