@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=diinki-retro-dark
+Comment=meow
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=diinki-retro-dark
+GtkTheme=diinki-retro-dark
+IconTheme=diinki-retro-dark
+MetacityTheme=diinki-retro-dark
