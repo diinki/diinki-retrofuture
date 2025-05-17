@@ -21,7 +21,7 @@ I recommend reading the entire README, but if you're in a hurry, here's the imme
    Then, set the active GTK theme by running the dconf-editor gui application and then setting the Gnome GTK theme string value to `diinki-retro-dark`.
 8. Configure the GTK icon theme by copying the linked theme files to your system `/usr/share/icons` directory, then set the `icon-theme` string to `FairyWren_Dark` (or any other theme that you may desire.)
 
-And that's it, you've now installed this rice from scratch.
+And that's it, you've now installed this rice from scratch
 
 ### KEY-BINDS:
 
@@ -60,7 +60,7 @@ This rice uses the following tools and softwares:
 - `wofi` (Application Launcher)
 - `waybar` (Taskbar/Infobar)
 - `dconf` (Used to edit gtk themes and cursors, and default softwares used)
-- `nemo` (File explorer)
+- `nemo` (File explorer), alternatively `nautilus` also looks nice with the gtk theme.
 - `kitty` (The terminal Emulator)
 - `themix-oomix` (Used to create GTK themes.)
 - `network-manager-applet` (Used for tray and other nm things, probably installed with your OS by default.)
@@ -142,6 +142,8 @@ should be moved to `/usr/share/icons`.
 
 You can set the active theme by using the dconf-editor to set the gnome gtk and icon theme values to
 `diinki-retro-dark` and `FairyWren_Dark` respectively.
+
+GTK_DEBUG=interactive nautilus
 
 ### License
 

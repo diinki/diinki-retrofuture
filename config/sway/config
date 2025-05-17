@@ -12,7 +12,7 @@ font pango:Maple Mono Regular 10
 
 # Start the auth agent, if you don't use this you can comment out this line.
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
+exec --no-startup-id sh -c ' eval $(gnome-keyring-daemon --login) eval $(gnome-keyring-daemon --start --components=secrets,ssh) export SSH_AUTH_SOCK'
 # Start the network manager applet, can comment out this line if you don't use network manager.
 exec nm-applet
 
@@ -24,11 +24,11 @@ exec nm-applet
 # enter `swaymsg -t get_outputs` to get your monitor details.
 
 
-# For example, these are my details that I've included
-# as an example:
-#-- output DP-1 pos 0 0 res 1920x1080@144.001Hz
-#-- output DP-3 pos 1920 0 res 2560x1440@164.835Hz
-
+# These are simply my details, they **wont** work for you, I've
+# included them to serve as an example.
+output DP-3 pos 1920 0 res 2560x1440@164.835Hz
+output DP-1 pos 0 0 res 1920x1080@144.001Hz
+output HDMI-A-2 pos 4480 0 res 3840x2160@59.997Hz
 # =================================================================
 
 
@@ -38,7 +38,7 @@ exec nm-applet
 # to the specific display output. Make sure to edit the directory
 # to your wallpaper!
 
-output * bg "/home/diinki/Pictures/Wallpapers/wp8.png" fill
+output * bg "/home/diinki/Pictures/Wallpapers/wp4.png" fill
 # =================================================================
 
 
@@ -61,12 +61,12 @@ set $file_explorer nemo
 # ===================== BORDERS & GAPS ============================
 
 # Gaps between windows
-gaps inner 8
-gaps outer 4
+gaps inner 8px
+gaps outer 4px
 
 # Border width, I prefer THIN borders ^-^
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 1px
+default_floating_border pixel 1px
 
 
 # The border colors:
@@ -187,4 +187,5 @@ bindsym $mod+Shift+7 move container to workspace number 7
 bindsym $mod+Shift+8 move container to workspace number 8
 bindsym $mod+Shift+9 move container to workspace number 9
 bindsym $mod+Shift+0 move container to workspace number 10
+bindsym $mod+a focus parent
 # ==============================================================
