@@ -6,7 +6,6 @@
   :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
-  :focusable false
   :geometry (geometry
     :x "50"
     :y "50"
@@ -20,7 +19,6 @@
   :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
-  :focusable false
   :geometry (geometry
     :x "170"
     :y "50"
@@ -34,7 +32,6 @@
   :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
-  :focusable false
   :geometry (geometry
     :x "290"
     :y "50"
@@ -48,7 +45,6 @@
   :monitor '["<primary>", 0, 1, 2]'
   :stacking "bg"
   :namespace "eww"
-  :focusable true
   :geometry (geometry
     :x "50"
     :y "170"
@@ -62,7 +58,6 @@
   :monitor '["<primary>", 0, 1, 2]'
   :stacking "fg"
   :namespace "eww"
-  :focusable false
   :geometry (geometry
     :x "50"
     :y "170"

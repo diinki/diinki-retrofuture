@@ -41,7 +41,7 @@
 (defwidget powermenu []
   (centerbox :height "100" :width "340" :halign "center" :valign "center" :class "userinfo-parent"
     (box :height "100" :width "113" :halign "center" :valign "center" :class "userinfo-child"
-      (button :onclick "systemctl poweoff" :class "poweroff-button"
+      (button :onclick "systemctl poweroff" :class "poweroff-button"
         (label :class "icon-label"  :text "⏻")
       )
     )
