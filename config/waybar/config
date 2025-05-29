@@ -15,7 +15,7 @@
   "sway/workspaces": {
     "disable-scroll": true,
     "all-outputs": false,
-    "tooltip": false
+    "tooltip": false,
   },
 
   "custom/applauncher": {

@@ -28,10 +28,14 @@ especially useful if you have ADHD or hate reading...
    - Enter `dconf-editor` in your terminal to open up the dconf gui program, use this to set the GTK theme
      to `diinki-retro-dark`, you may also use dconf to set your icon theme and cursor theme.
 3. `Creative Liberty`
+
    - I have commented all config files in a concise and descriptive manner, I recommend reading them and
      editing them as you see fit; you may want to add or change things, such as the keybinds for sway, or
      the fonts used.
    - Feel free to continue reading this document for more details on the design & softwares used.
+
+   > Note: I have also included a Hyprland Config Directory (config/hypr), in case you want to use this rice with Hyprland,
+   > it works by default and the only thing you need to do is drag the hypr folder into your ~/.config directory.
 
 ### ⌨️ Key-binds
 
