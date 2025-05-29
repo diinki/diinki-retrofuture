@@ -1,35 +1,34 @@
 # Retro-Futuristic Linux Rice
 
-diinki-retrofuture is a retro-futuristic linux rice that revolves around [this](https://diinki.com) youtube
-video that I've made; where I teach you how to make this exact rice from scratch. Of course, the github version
-has cleaner config files and more comments, so I highly recommend reading the configs and code, and also customizing them as you see fit
+![Showcase](screenshots/3.png)
+diinki-retrofuture is a rice that revolves around [this](https://diinki.com) youtube
+video, where I teach how to make this exact rice from scratch. Naturally, the github version
+has cleaner config files and more comments, I bid you a read of the config files and code; you will need to
+edit some lines yourself regardless.
 
-This project also includes a GTK3/4 theme which I highly recommend, it makes nemo/nautilus/etc look good with the
-rice!
+This project also includes a GTK3/4 theme which matches the aesthetic.
 
 ## 📌 Installation Steps
 
-Feel free to watch [this part of my video](https://diinki.com), where I skim over how to install this rice;
-especially useful if you have ADHD or hate reading...
+Feel free to watch [this part of my video](https://diinki.com) where I demonstrate how to install this rice.
 
-**I'm assuming you use arch or an arch-based, but the steps would be extremely similar regardless.**
+**I assume you use arch or an arch-based, but the steps would be quite similar regardless.**
 
 1. `Installation`
-   - Run `sudo pacman -S sway wofi waybar nemo nautilus kitty dconf` in your terminal.
-   - Run `yay eww` in your terminal (if you also want widgets) (you may need to install yay) (note that you _might_ also need to change the monitor setup for eww, if it doesn't work immediately for you).
-   - Install the Maple Mono font, as this font is used a lot in this Linux rice. Move the font-file to `/usr/share/fonts`, then run `fc-cache -f -v` to update all font
-   - Run `git clone https://github.com/diinki/diinki-retrofuture` to clone this repo
-2. `Config Setup`
+   - Run `sudo pacman -S sway wofi waybar nemo nautilus kitty dconf dconf-editor` in your terminal.
+   - Run `yay eww` in your terminal (you will need to install yay).
+   - Install the [Maple Mono font](https://github.com/subframe7536/Maple-font), as this font is used a lot in this Linux rice. Move the font-file to `/usr/share/fonts`, then run `fc-cache -f -v` to update the fonts.
+   - Run `git clone https://github.com/diinki/diinki-retrofuture` to clone this repo, or install it from the Releases section.
+2. `Configuration & Setup`
    - Copy all folders in the `diinki-retrofuture/config` directory to your local user `.config` directory
-     (`~/.config`).
-   - Copy the `diinki-retro-dark` folder in `diinki-retrofuture/gtk_theme` to your local user `.themes` directory (`~/.themes`), you may need to create this directory manually if you don't already have it.
-   - Use a text editor to edit the sway config-file in `~/.config/sway/config`. You need to edit the config
+     (`~/.config`). Skip the `hypr` folder if you don't also want the hyprland config files.
+   - Copy the `diinki-retro-dark` folder in `diinki-retrofuture/gtk_theme` to your local `.themes` directory (`~/.themes`), you may need to create this directory manually.
+   - Use a text editor to edit the sway config file in `~/.config/sway/config`. You need to edit the config
      to setup your wallpaper and monitor settings. I've commented the file with the steps.
-   - Enter `dconf-editor` in your terminal to open up the dconf gui program, use this to set the GTK theme
-     to `diinki-retro-dark`, you may also use dconf to set your icon theme and cursor theme.
+   - Enter `dconf-editor` in your terminal to open up the dconf gui program, search "gtk-theme", and set the theme value to `diinki-retro-dark`. You may also use dconf to set your icon theme and cursor theme to ones of your liking.
 3. `Creative Liberty`
 
-   - I have commented all config files in a concise and descriptive manner, I recommend reading them and
+   - I have the config files in a concise and descriptive manner, I recommend reading them and
      editing them as you see fit; you may want to add or change things, such as the keybinds for sway, or
      the fonts used.
    - Feel free to continue reading this document for more details on the design & softwares used.
@@ -37,11 +36,10 @@ especially useful if you have ADHD or hate reading...
    > Note: I have also included a Hyprland Config Directory (config/hypr), in case you want to use this rice with Hyprland,
    > it works by default and the only thing you need to do is drag the hypr folder into your ~/.config directory.
 
-### ⌨️ Key-binds
+### ⌨️ Keyboard bindings
 
 All key-binds can be find in the sway config file, simply refer to those and edit them if you'd like.
-
-The most important default key-binds are:
+The most important default bindings are:
 
 - `mod` = the super key, (the windows key, as some people refer to it as). You can re-bind mod to something else if you wish.
 
@@ -63,27 +61,27 @@ The most important default key-binds are:
 This rice uses the following tools and softwares:
 
 - `sway` (The window manager)
+- `hyprland` (The alternate window manager)
 - `wofi` (Application Launcher)
 - `waybar` (Taskbar/Infobar)
-- `dconf` (Used to edit gtk themes and cursors, and default softwares used)
+- `dconf` & `dconf-editor` (Used to edit gtk themes and cursors, and default softwares used)
 - `nemo` or `nautilus` (File explorer).
 - `kitty` (The terminal Emulator)
 - `themix-oomix` (Used to create the non GTK4 themes.)
 - `network-manager-applet` (Used for tray and other nm things, probably installed with your OS by default.)
 - `eww` (Widgets)
 
-In the guide, I installed endeavorOS with Gnome, and showed how to switch from gnome
-to sway, in order to boot into sway I decided to show how to use the `ly` login
-manager, it's not strictly needed, but for the sake of brevity:
+> ℹ️ In the guide I used EndeavorOS with Gnome as a basis and showed how to switch from gnome
+> to sway. In order to boot between swaygnome I decided to demonstrate the `ly` login
+> manager.
 
-- `ly` Login manager that's used.
+- `ly` Login/Display manager that's used.
 
 ### 🖌️ Design Language
 
-This Linux-Rice is simple in essence, no massive and complicated config files and designs;
-that being said there's quite a lot of thought put into each element in order for them to
-follow a **Retro Futuristic design system** that I've made, this includes bespoke wallpapers
-that are made to look good with this rice.
+This Linux rice is simple in essence, no massive and complicated config files and designs;
+that being said there's still thought put into the design of each element in order to achieve a **Retro Futuristic Aesthetic**,
+this includes the design for the wallpapers included with this rice.
 
 Design system descriptions can be found in the `design_system` directory of this repository.
 
@@ -93,49 +91,49 @@ The main color palette used widely for this rice in both the GTK themes and othe
 
 `Core:`
 
-- Accent: `#AC82E9`
-- Accent Deep: `#8F56E1`
-- Dark: `#141216`
-- Lighter Dark `#27232b`
-- Foreground: `#d8cab8`
-- Complementary Accent: `#c4e881`
+- <span style="color:#AC82E9">▲</span> Accent: `#AC82E9`
+- <span style="color:#8F56E1">▲</span> Accent Deep: `#8F56E1`
+- <span style="color:#141216">▲</span> Dark: `#141216`
+- <span style="color:#27232b">▲</span> Lighter Dark `#27232b`
+- <span style="color:#d8cab8">▲</span> Foreground: `#d8cab8`
+- <span style="color:#c4e881">▲</span> Complementary Accent: `#c4e881`
 
 `Additional:`
 
-- Warning: `#fcb167`
-- Danger: `#fc4649`
-- Yellow: `#f3fc7b`
-- Green: `#c4e881`
-- Blue: `#7b91fc`
-- Cyan: `#92fcfa`
-- Magenta: `#fc92fc`
+- <span style="color:#fcb167">▲</span> Warning: `#fcb167`
+- <span style="color:#fc4649">▲</span> Danger: `#fc4649`
+- <span style="color:#f3fc7b">▲</span> Yellow: `#f3fc7b`
+- <span style="color:#c4e881">▲</span> Green: `#c4e881`
+- <span style="color:#7b91fc">▲</span> Blue: `#7b91fc`
+- <span style="color:#92fcfa">▲</span> Cyan: `#92fcfa`
+- <span style="color:#fc92fc">▲</span> Magenta: `#fc92fc`
 
 ### 🌆 Wallpapers:
 
 Wallpapers for this rice can be found in the `wallpapers` directory of this repo.
 
-The wallpapers may be under-saturated , or use completely different yet matching colors
-in order to create good background/foreground separation between the UI elements
-and the wallpaper.
-
-You may also use `sway-fx` instead of `sway`, which is a fork of `sway` with additional features
-such as shadows, rounded edges, and blur.
+You may use `sway-fx` instead of `sway`, which is a fork of `sway` with additional features
+such as shadows, rounded edges, and blur; `hyprland` also has those features which baseline sway
+doesn't posses.
 
 All Wallpapers included in this repo are bespoke for the rice, made by me. Additional elements may
-have been cut-out from other artworks and elements, I've included sources to those elements in case
-where I've been able to find them.
+have been cut-out / ripped from other artworks, I'll include credit if I find the sources, regardless
+the elements would be heavily edited.
 
 ### 🖋️ Fonts:
 
-A lot of elements use the Maple Mono font in this rice, it's a good font and so I recommend installing it.
+I mainly use the Maple Mono font in this rice, it's a good font and so I recommend installing it.
 You can edit the font by editing the config files.
+
+For other unicode symbols, you will likely need to download `nerd-fonts`.
 
 You can install the font directly from github, I recommend keeping it relatively up-to-date. Move the font
 files to your system `/usr/share/fonts` directory, then update the font cache by running `fc-cache -f -v`
 
 ### GTK & Icon Theme:
 
-I recommend using the included GTK theme, however for the icon theme you may pick whichever you like.
+I recommend using the included GTK theme, however for the icon theme you may pick whichever you like. The
+GTK theme is likely what would change most if I ever update this rice.
 
 ### 📜 License
 
