@@ -8,9 +8,33 @@ If you enjoy the content & art I create, feel entirely free to give a tip on kof
 
 <details open>
 <br>
-<summary>Screenshot 1</summary>
+<summary>Screenshot - Main Rice</summary>
 
 ![Screenshot 1](screenshots/5.png)
+
+</details>
+
+<details closed>
+<br>
+<summary>Screenshot 2 - Main Rice</summary>
+
+![Screenshot 2](screenshots/3.png)
+
+</details>
+
+<details closed>
+<br>
+<summary>Screenshot 3 - Alternate Version</summary>
+
+![Screenshot 2](screenshots/alt_1.png)
+
+</details>
+
+<details closed>
+<br>
+<summary>Screenshot 4 - Alternate Version</summary>
+
+![Screenshot 2](screenshots/alt_2.png)
 
 </details>
 
@@ -48,14 +72,6 @@ Feel free to watch [this part of my video](https://diinki.com) where I demonstra
 
    > Note: I have also included a Hyprland Config Directory (config/hypr), in case you want to use this rice with Hyprland,
    > it works by default and the only thing you need to do is drag the hypr folder into your ~/.config directory.
-
-<details open>
-<br>
-<summary>Screenshot 2</summary>
-
-![Screenshot 2](screenshots/3.png)
-
-</details>
 
 ### ⌨️ Keyboard bindings
 
@@ -155,14 +171,15 @@ files to your system `/usr/share/fonts` directory, then update the font cache by
 I recommend using the included GTK theme, however for the icon theme you may pick whichever you like. The
 GTK theme is likely what would change most if I ever update this rice.
 
-## Alternate Configs:
+## Alternate Version:
 
-The `alternate_configs` directory contains alternate configs for alternate alternate designs of this rice.
-it's an alternate style for this rice which can be seen in the screen-shots below.
+The `alternate_version` directory contains alternate configs for alternate designs of this rice.
+it's an alternate style that incorporates blur and corner radii into the design, yet maintains
+the same colors.
 
-**Note**: Using the alternate version of kitty will require either using the alternate
+**Note**: Using the alternate version will require either using the alternate
 `hypr` config with `hyprland`, or installing `swayfx` so you can set-up blur; the alternate
-version of kitty wont look good without blur.
+versions wont look good without blur; which default sway doesn't support.
 
 ### 📜 License
 
