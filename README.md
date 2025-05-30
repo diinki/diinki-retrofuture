@@ -91,22 +91,22 @@ The main color palette used widely for this rice in both the GTK themes and othe
 
 `Core:`
 
-- <span style="color:#AC82E9">▲</span> Accent: `#AC82E9`
-- <span style="color:#8F56E1">▲</span> Accent Deep: `#8F56E1`
-- <span style="color:#141216">▲</span> Dark: `#141216`
-- <span style="color:#27232b">▲</span> Lighter Dark `#27232b`
-- <span style="color:#d8cab8">▲</span> Foreground: `#d8cab8`
-- <span style="color:#c4e881">▲</span> Complementary Accent: `#c4e881`
+- ![#AC82E9](https://placehold.co/15x15/AC82E9/AC82E9.png) Accent: `#AC82E9`
+- ![#8F56E1](https://placehold.co/15x15/8F56E1/8F56E1.png) Accent Deep: `#8F56E1`
+- ![#141216](https://placehold.co/15x15/141216/141216.png) Dark: `#141216`
+- ![#27232b](https://placehold.co/15x15/27232b/27232b.png) Lighter Dark `#27232b`
+- ![#d8cab8](https://placehold.co/15x15/d8cab8/d8cab8.png) Foreground: `#d8cab8`
+- ![#c4e881](https://placehold.co/15x15/c4e881/c4e881.png) Complementary Accent: `#c4e881`
 
 `Additional:`
 
-- <span style="color:#fcb167">▲</span> Warning: `#fcb167`
-- <span style="color:#fc4649">▲</span> Danger: `#fc4649`
-- <span style="color:#f3fc7b">▲</span> Yellow: `#f3fc7b`
-- <span style="color:#c4e881">▲</span> Green: `#c4e881`
-- <span style="color:#7b91fc">▲</span> Blue: `#7b91fc`
-- <span style="color:#92fcfa">▲</span> Cyan: `#92fcfa`
-- <span style="color:#fc92fc">▲</span> Magenta: `#fc92fc`
+- ![#fcb167](https://placehold.co/15x15/fcb167/fcb167.png) Warning: `#fcb167`
+- ![#fc4649](https://placehold.co/15x15/fc4649/fc4649.png) Danger: `#fc4649`
+- ![#f3fc7b](https://placehold.co/15x15/f3fc7b/f3fc7b.png) Yellow: `#f3fc7b`
+- ![#c4e881](https://placehold.co/15x15/c4e881/c4e881.png) Green: `#c4e881`
+- ![#7b91fc](https://placehold.co/15x15/7b91fc/7b91fc.png) Blue: `#7b91fc`
+- ![#92fcfa](https://placehold.co/15x15/92fcfa/92fcfa.png) Cyan: `#92fcfa`
+- ![#fc92fc](https://placehold.co/15x15/fc92fc/fc92fc.png) Magenta: `#fc92fc`
 
 ### 🌆 Wallpapers:
 
