@@ -143,6 +143,11 @@ files to your system `/usr/share/fonts` directory, then update the font cache by
 I recommend using the included GTK theme, however for the icon theme you may pick whichever you like. The
 GTK theme is likely what would change most if I ever update this rice.
 
+### Alternate Configs:
+
+The alternate configs contain two configuration directories, one for hyprland and one for waybar; Simply put,
+it's an alternate style for this rice which can be seen in the screenshots below.
+
 ### 📜 License
 
 This project is licensed under the MIT permissive license.
