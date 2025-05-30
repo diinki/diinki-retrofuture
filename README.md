@@ -7,7 +7,6 @@ If you enjoy the content & art I create, feel entirely free to give a tip on kof
 ---
 
 ![Screenshot 1](screenshots/5.png)
-![Screenshot 2](screenshots/3.png)
 
 diinki-retrofuture is a rice that revolves around [this](https://diinki.com) youtube
 video, where I teach how to make this exact rice from scratch. Naturally, the github version
@@ -43,6 +42,8 @@ Feel free to watch [this part of my video](https://diinki.com) where I demonstra
 
    > Note: I have also included a Hyprland Config Directory (config/hypr), in case you want to use this rice with Hyprland,
    > it works by default and the only thing you need to do is drag the hypr folder into your ~/.config directory.
+
+![Screenshot 2](screenshots/3.png)
 
 ### ⌨️ Keyboard bindings
 
@@ -125,8 +126,7 @@ such as shadows, rounded edges, and blur; `hyprland` also has those features whi
 doesn't posses.
 
 All Wallpapers included in this repo are bespoke for the rice, made by me. Additional elements may
-have been cut-out / ripped from other artworks, I'll include credit if I find the sources, regardless
-the elements would be heavily edited.
+have been cut-out / traced from images, I'll include credit if I find the reference sources.
 
 ### 🖋️ Fonts:
 
