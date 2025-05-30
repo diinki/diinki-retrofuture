@@ -93,6 +93,10 @@ window#waybar {
   color: #ac82e9;
   font-weight: bold;
 }
+#workspaces button.active {
+  color: #ac82e9;
+  font-weight: bold;
+}
 #workspaces button.urgent {
   color: #fcb167;
 }
