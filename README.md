@@ -1,6 +1,8 @@
 # Retro-Futuristic Linux Rice
 
-![Showcase](screenshots/3.png)
+![Screenshot 1](screenshots/5.png)
+![Screenshot 2](screenshots/3.png)
+
 diinki-retrofuture is a rice that revolves around [this](https://diinki.com) youtube
 video, where I teach how to make this exact rice from scratch. Naturally, the github version
 has cleaner config files and more comments, I bid you a read of the config files and code; you will need to
