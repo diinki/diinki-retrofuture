@@ -49,7 +49,7 @@ This project also includes a GTK3/4 theme which matches the aesthetic.
 
 Feel free to watch [this part of my video](https://diinki.com) where I demonstrate how to install this rice.
 
-**I assume you use arch or an arch-based, but the steps would be quite similar regardless.**
+**I assume you use arch / arch-based, but the steps should be similar regardless.**
 
 1. `Installation`
    - Run `sudo pacman -S sway wofi waybar nemo nautilus kitty dconf dconf-editor` in your terminal.
