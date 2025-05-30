@@ -5,8 +5,8 @@
   "margin-bottom": 0,
   "margin-top": 8,
   "position": "top",
-  "margin-right": 100,
-  "margin-left": 100,
+  "margin-right": 370,
+  "margin-left": 370,
   "modules-left": [
     "hyprland/workspaces",
     "sway/workspaces"
