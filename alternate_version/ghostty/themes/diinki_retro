@@ -1,0 +1,22 @@
+background = #141216
+foreground = #d8cab8
+
+window-padding-x = 8
+window-padding-y = 8
+
+palette = 0=#2b2135
+palette = 8=#92fcfa
+palette = 1=#fc4649
+palette = 9=#fc4649
+palette = 2=#c4e881
+palette = 10=#c4e881
+palette = 3=#AC82E9
+palette = 11=#AC82E9
+palette = 4=#7b91fc
+palette = 12=#7b91fc
+palette = 5=#f3fc7b
+palette = 13=#f3fc7b
+palette = 6=#8F56E1
+palette = 14=#8F56E1
+palette = 7=#fc92fc
+palette = 15=#d8cab8
