@@ -1,1 +1,3 @@
+# BEGIN_ALACRITTY_THEME
 import =  ["~/.config/alacritty/themes/diinki_retro.toml"]
+# END_ALACRITTY_THEME
