@@ -38,7 +38,7 @@ If you enjoy the content & art I create, feel entirely free to give a tip on kof
 
 </details>
 
-diinki-retrofuture is a rice that revolves around [this](https://diinki.com) youtube
+diinki-retrofuture is a rice that revolves around [this](https://youtu.be/z9z1QcYQeJk) youtube
 video, where I teach how to make this exact rice from scratch. Naturally, the github version
 has cleaner config files and more comments, I bid you a read of the config files and code; you will need to
 edit some lines yourself regardless.
@@ -47,7 +47,7 @@ This project also includes a GTK3/4 theme which matches the aesthetic.
 
 ## 📌 Installation Steps
 
-Feel free to watch [this part of my video](https://diinki.com) where I demonstrate how to install this rice.
+Feel free to watch [this part of my video](https://youtu.be/z9z1QcYQeJk) where I demonstrate how to install this rice.
 
 **I assume you use arch / arch-based, but the steps should be similar regardless.**
 

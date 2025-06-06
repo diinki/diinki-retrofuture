@@ -38,7 +38,7 @@ output HDMI-A-2 pos 4480 0 res 3840x2160@59.997Hz
 # to the specific display output. Make sure to edit the directory
 # to your wallpaper!
 
-output * bg "/home/diinki/Pictures/Wallpapers/wp4.png" fill
+output * bg "/home/username/Pictures/wallpaper.png" fill
 # =================================================================
 
 
