@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Reload/Open eww
-eww kill
-eww daemon
+eww daemon --restart
 
 # Open widgets for monitor 1
 eww open yearbox
