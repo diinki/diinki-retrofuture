@@ -9,7 +9,8 @@
 
 window#waybar {
   /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
-  background: transparent;
+  background: rgba(31, 26, 36, 0.8);
+  border-radius: 14px;
   padding: 0px;
 }
 
@@ -57,8 +58,7 @@ window#waybar {
 /* middle modules */
 #custom-applauncher,
 #clock,
-#clock#date,
-#custom-webuntis {
+#clock#date {
   background-image: linear-gradient(to bottom, #141216 100%);
 
   margin: 6px;
@@ -76,10 +76,6 @@ window#waybar {
   border-bottom-left-radius: 8px;
 }
 #clock {
-  border-radius: 8px;
-  margin-right: 6px;
-}
-#custom-webuntis {
   border-radius: 8px;
   margin-right: 6px;
 }

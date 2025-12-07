@@ -1,0 +1,15 @@
+{
+  "include": "config",
+
+  "modules-center": [
+    "clock#date",
+    "clock",
+    "custom/webuntis"
+  ],
+  "custom/webuntis": {
+    "format": "{text}",
+    "exec": "python ~/.config/waybar/scripts/webuntis-dsp.py",
+    "return-type": "text",
+    "interval": 10
+  }
+}
