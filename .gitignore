@@ -1,5 +1,3 @@
 .git
 .tools
-config/waybar/scripts/webuntis-dsp.py
-config/waybar/config-untis
 config/waybar/scripts/__pycache__
