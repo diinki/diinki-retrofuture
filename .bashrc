@@ -10,5 +10,6 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch -c examples/13
+  fastfetch -c examples/13
 fi
+eval "$(zoxide init bash)"
