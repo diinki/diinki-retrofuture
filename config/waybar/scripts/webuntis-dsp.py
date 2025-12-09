@@ -2,10 +2,10 @@ import webuntis
 import datetime
 
 s = webuntis.Session(
-    server='###.webuntis.com',
+    server='bns1.webuntis.com',
     username='###',
     password='###',
-    school='###',
+    school='BNS1',
     useragent='WebUntis Test'
 )
 
@@ -14,7 +14,7 @@ currentTime = datetime.datetime.now().time()
 
 s.login()
 
-klasse = s.klassen().filter(name='###')[0]
+klasse = s.klassen().filter(name='TGI-E')[0]
 
 table = s.timetable(klasse=klasse, start=currentDate, end=currentDate).to_table()
 
